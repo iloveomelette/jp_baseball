@@ -16,10 +16,11 @@ Gem::Specification.new do |gem|
   gem.required_ruby_version = '>= 2.6.0'
 
   gem.metadata = {
-    'homepage_uri'    => gem.homepage,
+    'homepage_uri' => gem.homepage,
     'source_code_uri' => gem.homepage,
     # TODO: Update changelog_uri
-    'changelog_uri'   => "#{gem.homepage}/blob/main/CHANGELOG.md"
+    'changelog_uri' => "#{gem.homepage}/blob/main/CHANGELOG.md",
+    'rubygems_mfa_required' => 'true'
   }
 
   gem.files         = Dir['{lib}/**/*', 'CHANGELOG.md', 'CODE_OF_CONDUCT.md', 'LICENSE', 'README.md']

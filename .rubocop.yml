@@ -1,5 +1,10 @@
+require:
+  - rubocop-rake
+  - rubocop-rspec
+
 AllCops:
-  TargetRubyVersion: 3.2
+  TargetRubyVersion: 2.6
+  NewCops: enable
 
 # Force single quotes for strings.
 Style/StringLiterals:
@@ -21,3 +26,7 @@ Metrics/AbcSize:
 # Access modifiers should be declared to apply to inline before each method.
 Style/AccessModifierDeclarations:
   EnforcedStyle: inline
+
+# Not Specify development dependencies in Gemfile.
+Gemspec/DevelopmentDependencies:
+  Enabled: false
