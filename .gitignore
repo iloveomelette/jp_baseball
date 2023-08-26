@@ -1,0 +1,17 @@
+*.gem
+*.rbs
+Gemfile.lock
+gemfiles/*.lock
+/.bundle/
+/.yardoc
+/_yardoc/
+/coverage/
+/doc/
+/log/
+/pkg/
+/spec/reports/
+/tmp/
+/test/tmp/
+
+# rspec failure tracking
+.rspec_status

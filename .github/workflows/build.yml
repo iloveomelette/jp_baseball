@@ -1,0 +1,55 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    types: [opened, reopened]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v3
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          # Set to `TargetRubyVersion` in `.rubocop.yml`.
+          ruby-version: '3.2'
+
+      - name: Bundle
+        # For faster install, and installing again if installing failed.
+        run: bundle install --jobs 4 --retry 3
+
+      - name: Lint
+        run: bundle exec rubocop
+
+  # TODO: Every ruby version should be tested.
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v3
+
+      - name: Setup System
+        run: |
+          sudo apt-get update
+          sudo apt-get install libsqlite3-dev
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          # Set to `TargetRubyVersion` in `.rubocop.yml`.
+          ruby-version: '3.2'
+
+      - name: Bundle
+        # For faster install, and installing again if installing failed.
+        run: bundle install --jobs 4 --retry 3
+
+      - name: Test
+        run: bundle exec rspec

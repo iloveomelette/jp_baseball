@@ -1,0 +1,23 @@
+AllCops:
+  TargetRubyVersion: 3.2
+
+# Force single quotes for strings.
+Style/StringLiterals:
+  Enabled: true
+  EnforcedStyle: single_quotes
+
+Style/StringLiteralsInInterpolation:
+  Enabled: true
+  EnforcedStyle: single_quotes
+
+# Checks that line length does not exceed the configured limit.
+Layout/LineLength:
+  Max: 120
+
+# A calculated magnitude based on number of assignments, branches, and conditions.
+Metrics/AbcSize:
+  Max: 30
+
+# Access modifiers should be declared to apply to inline before each method.
+Style/AccessModifierDeclarations:
+  EnforcedStyle: inline
