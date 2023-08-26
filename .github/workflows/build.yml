@@ -19,7 +19,7 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           # Set to `TargetRubyVersion` in `.rubocop.yml`.
-          ruby-version: '3.2'
+          ruby-version: '2.6'
 
       - name: Bundle
         # For faster install, and installing again if installing failed.
@@ -45,7 +45,7 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           # Set to `TargetRubyVersion` in `.rubocop.yml`.
-          ruby-version: '3.2'
+          ruby-version: '2.6'
 
       - name: Bundle
         # For faster install, and installing again if installing failed.
