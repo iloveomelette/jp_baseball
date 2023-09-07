@@ -1,0 +1,267 @@
+---
+- :central:
+  - :swallows:
+    - '12':
+        :name: '山田　太郎'
+        :birthday: 1988.03.09
+        :height: 180
+        :weight: 80
+        :pitch: 右
+        :bat: 右
+    - '14':
+        :name: '佐藤　二郎'
+        :birthday: 1992.05.19
+        :height: 185
+        :weight: 97
+        :pitch: 右
+        :bat: 左
+    - '15':
+        :name: '佐々木　三郎'
+        :birthday: 1985.11.15
+        :height: 175
+        :weight: 75
+        :pitch: 左
+        :bat: 右
+  - :baystars:
+    - '17':
+        :name: '細川　大地'
+        :birthday: 1985.02.14
+        :height: 183
+        :weight: 88
+        :pitch: 右
+        :bat: 右
+    - '18':
+        :name: '鈴木　隼人'
+        :birthday: 1996.04.29
+        :height: 176
+        :weight: 69
+        :pitch: 右
+        :bat: 左
+    - '20':
+        :name: '斉藤　高貴'
+        :birthday: 1990.12.08
+        :height: 179
+        :weight: 78
+        :pitch: 右
+        :bat: 右
+  - :tigers:
+    - '11':
+        :name: '高田　勇気'
+        :birthday: 1988.02.15
+        :height: 183
+        :weight: 86
+        :pitch: 左
+        :bat: 右
+    - '12':
+        :name: '佐藤　正規'
+        :birthday: 1993.10.12
+        :height: 182
+        :weight: 86
+        :pitch: 右
+        :bat: 左
+    - '15':
+        :name: '吉田　優斗'
+        :birthday: 1994.08.14
+        :height: 179
+        :weight: 77
+        :pitch: 左
+        :bat: 右
+  - :giants:
+    - '11':
+        :name: 山崎　龍太
+        :birthday: 1998.08.01
+        :height: 185
+        :weight: 99
+        :pitch: 右
+        :bat: 右
+    - '15':
+        :name: 菅野　大勢
+        :birthday: 1999.06.29
+        :height: 181
+        :weight: 88
+        :pitch: 右
+        :bat: 右
+    - '18':
+        :name: 坂本　智之
+        :birthday: 1989.10.11
+        :height: 186
+        :weight: 95
+        :pitch: 右
+        :bat: 右
+  - :carp:
+    - '11':
+        :name: 森　亜蓮
+        :birthday: 1991.09.01
+        :height: 187
+        :weight: 97
+        :pitch: 右
+        :bat: 右
+    - '12':
+        :name: 野村　温貴
+        :birthday: 1999.01.20
+        :height: 178
+        :weight: 80
+        :pitch: 右
+        :bat: 右
+    - '13':
+        :name: 中崎　大輔
+        :birthday: 1998.06.15
+        :height: 175
+        :weight: 72
+        :pitch: 左
+        :bat: 左
+  - :dragons:
+    - '7':
+        :name: 大野　昂
+        :birthday: 2000.04.19
+        :height: 177
+        :weight: 84
+        :pitch: 右
+        :bat: 左
+    - '11':
+        :name: 木下　慎之介
+        :birthday: 1997.10.08
+        :height: 180
+        :weight: 93
+        :pitch: 左
+        :bat: 左
+    - '12':
+        :name: 高橋　慎二
+        :birthday: 1989.12.21
+        :height: 181
+        :weight: 87
+        :pitch: 右
+        :bat: 右
+- :pacific:
+  - :baffaloes:
+    - '11':
+        :name: 横山　福也
+        :birthday: 1992.09.09
+        :height: 188
+        :weight: 95
+        :pitch: 左
+        :bat: 左
+    - '12':
+        :name: 黒木　舜平大
+        :birthday: 2002.07.16
+        :height: 190
+        :weight: 98
+        :pitch: 右
+        :bat: 右
+    - '13':
+        :name: 福永　大弥
+        :birthday: 2001.08.25
+        :height: 171
+        :weight: 78
+        :pitch: 左
+        :bat: 左
+  - :hawks:
+    - '12':
+        :name: 長谷川　勇太朗
+        :birthday: 2000.09.21
+        :height: 191
+        :weight: 95
+        :pitch: 右
+        :bat: 右
+    - '13':
+        :name: 古賀　光成
+        :birthday: 1997.02.03
+        :height: 190
+        :weight: 105
+        :pitch: 右
+        :bat: 右
+    - '14':
+        :name: 渡部　達至
+        :birthday: 1988.04.23
+        :height: 180
+        :weight: 88
+        :pitch: 右
+        :bat: 右
+  - :lions:
+    - '12':
+        :name: 山川　勇太朗
+        :birthday: 2000.09.21
+        :height: 191
+        :weight: 95
+        :pitch: 右
+        :bat: 右
+    - '13':
+        :name: 古川　光成
+        :birthday: 1997.02.03
+        :height: 190
+        :weight: 105
+        :pitch: 右
+        :bat: 右
+    - '14':
+        :name: 野田　達至
+        :birthday: 1988.04.23
+        :height: 180
+        :weight: 88
+        :pitch: 右
+        :bat: 右
+  - :eagles:
+    - '1':
+        :name: 内間　裕樹
+        :birthday: 1995.10.30
+        :height: 174
+        :weight: 74
+        :pitch: 左
+        :bat: 左
+    - '11':
+        :name: 伊藤　孝之
+        :birthday: 1984.12.04
+        :height: 180
+        :weight: 77
+        :pitch: 右
+        :bat: 右
+    - '13':
+        :name: 鈴木　萌生
+        :birthday: 1991.03.13
+        :height: 178
+        :weight: 97
+        :pitch: 左
+        :bat: 右
+  - :marines:
+    - '11':
+        :name: 川村　千隼
+        :birthday: 1994.06.08
+        :height: 181
+        :weight: 83
+        :pitch: 右
+        :bat: 右
+    - '12':
+        :name: 横山　歩
+        :birthday: 1988.04.11
+        :height: 186
+        :weight: 80
+        :pitch: 右
+        :bat: 右
+    - '14':
+        :name: 佐藤　和哉
+        :birthday: 1996.07.07
+        :height: 177
+        :weight: 85
+        :pitch: 左
+        :bat: 左
+  - :fighters:
+    - '12':
+        :name: 松浦　宏太
+        :birthday: 2000.08.02
+        :height: 173
+        :weight: 71
+        :pitch: 左
+        :bat: 左
+    - '13':
+        :name: 北山　翼
+        :birthday: 1995.02.19
+        :height: 176
+        :weight: 88
+        :pitch: 右
+        :bat: 右
+    - '14':
+        :name: 松岡　貴之
+        :birthday: 1992.06.03
+        :height: 182
+        :weight: 90
+        :pitch: 左
+        :bat: 左
