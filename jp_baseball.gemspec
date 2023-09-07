@@ -23,7 +23,7 @@ Gem::Specification.new do |gem|
     'rubygems_mfa_required' => 'true'
   }
 
-  gem.files         = Dir['{lib}/**/*', 'CHANGELOG.md', 'CODE_OF_CONDUCT.md', 'LICENSE', 'README.md']
+  gem.files         = Dir['{data,lib}/**/*', 'CHANGELOG.md', 'CODE_OF_CONDUCT.md', 'LICENSE', 'README.md']
   gem.bindir        = 'exe'
   gem.executables   = gem.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   gem.require_paths = ['lib']
