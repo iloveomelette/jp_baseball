@@ -22,6 +22,10 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/iloveomelette/jp_baseball. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/iloveomelette/jp_baseball/blob/main/CODE_OF_CONDUCT.md).
 
+**Updating `data/players.yml` is forbidden. Please do not update it directly.**
+If you want to update it, please create an issue or pull request.
+Subject to change in the future. Please check back periodically.
+
 ## License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
